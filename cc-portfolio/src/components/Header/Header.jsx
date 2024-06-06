@@ -7,12 +7,14 @@ import Nav from './Nav'
 
 export default function Header() {
     return (
-        <div>
+        <div className="mx-auto bg-gray-400 p-2">
             <h1>
                 HEADER
             </h1>
-            <Headshot/>
-            <Name/>
+            <div className='flex flex-wrap'>
+                <Headshot/>
+                <Name/>
+            </div>
             <Nav/>
         </div>
     )

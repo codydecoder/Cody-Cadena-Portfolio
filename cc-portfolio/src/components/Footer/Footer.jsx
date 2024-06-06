@@ -7,7 +7,7 @@ import GitHubProfile from './GitHubProfile'
 
 export default function Footer() {
     return (
-        <div>
+        <div className='mx-auto bg-gray-400 p-2'>
             <h1>FOOTER</h1>
             <GitHubProject/>
             <LinkedIn/>
