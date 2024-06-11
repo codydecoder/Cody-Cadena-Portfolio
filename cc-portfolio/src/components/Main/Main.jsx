@@ -8,7 +8,7 @@ import ContactMe from './ContactMe'
 
 export default function Main() {
     return (
-        <div className='mx-auto bg-gray-300 p-2'>
+        <div className='mx-auto bg-gray-200 p-2'>
             <h1>MAIN</h1>
             <AboutMe/>
             <Projects/>
