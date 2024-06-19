@@ -1,0 +1,85 @@
+/* HEADER HEADER HEADER */
+/*Name*/
+.name {
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 3px black;
+    text-shadow: 0 0 8px black;
+    outline: 5px solid #669966;
+    border: 4px solid black;
+    background-color: #660000;
+}
+.name:hover {
+    
+}
+
+/*Name*/
+
+/*Headshot*/
+
+/*Headshot*/
+
+/*Nav*/
+.navLinks {
+    font-size: large;
+}
+.navLinks:hover {
+    text-shadow: 0 0 5px #669900;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: #660000;
+}
+
+/*Nav*/
+
+/* MAIN MAIN MAIN */
+
+/*AboutMe*/
+
+/*AboutMe*/
+
+/*ContactMe*/
+
+/*ContactMe*/
+
+/*Home*/
+
+/*Home*/
+
+/*Projects*/
+
+/*Projects*/
+
+/*Resume*/
+
+/*Resume*/
+
+/*Skills*/
+
+/*Skills*/
+
+/* FOOTER FOOTER FOOTER */
+
+/* Footer */
+.footerLinks {
+    font-size: large;
+    
+}
+.footerLinks:hover {
+    text-shadow: 0 0 5px gray;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/* Footer */
+
+/*GitHubProject*/
+
+/*GitHubProject*/
+
+/*LinkedIn*/
+
+/*LinkedIn*/
+
+/*GitHubProfile*/
+
+/*GitHubProfile*/

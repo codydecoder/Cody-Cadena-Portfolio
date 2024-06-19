@@ -11,18 +11,17 @@ import ContactMe from './ContactMe'
 import Skills from './Skills'
 
 export default function Main() {
-    <div className='mx-auto bg-gray-100 p-2'>
-        <Router>
-            <Routes>
-                <Route path="/" element={ <Home/> }/>
-                <Route path="/aboutMe" element={ <AboutMe/> }/>
-                <Route path="/projects" element={ <Projects/> }/>
-                <Route path="/resume" element={ <Resume/> }/>
-                <Route path="/skills" element={ <Skills/> }/>
-                <Route path="/contactMe" element={ <ContactMe/> }/>
+    return (
+        <div className='mx-auto bg-gray-100 p-2'>            
+                <Routes>
+                    <Route path="/" element={ <Home/> }/>
+                    <Route path="/aboutMe" element={ <AboutMe/> }/>
+                    <Route path="/projects" element={ <Projects/> }/>
+                    <Route path="/resume" element={ <Resume/> }/>
+                    <Route path="/skills" element={ <Skills/> }/>
+                    <Route path="/contactMe" element={ <ContactMe/> }/>
             
-            </Routes>
-        </Router>
-    </div>
-    
+                </Routes>
+        </div>
+    )
 }

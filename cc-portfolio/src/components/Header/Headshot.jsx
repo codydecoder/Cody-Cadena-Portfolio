@@ -1,5 +1,6 @@
+//React
 import React from 'react'
-
+//Picture import
 import headshot from './Headshot.jpg'
 
 export default function Headshot() {
