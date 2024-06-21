@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 export default function LinkedIn() {
     return (
-        <div className='footerLinks border-4 border-black'>
+        <div className='footerLinks '>
             <Link classname='footerLinks' to='https://www.linkedin.com/in/codycadena/'>LinkedIn</Link>
         </div>
     )

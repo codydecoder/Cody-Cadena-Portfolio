@@ -21,6 +21,7 @@
 /*Nav*/
 .navLinks {
     font-size: large;
+    padding: 2px;
 }
 .navLinks:hover {
     text-shadow: 0 0 5px #669900;
@@ -62,12 +63,14 @@
 /* Footer */
 .footerLinks {
     font-size: large;
-    
+    text-decoration: underline;
+    text-decoration-color: #660000;
+    padding: 2px;
 }
 .footerLinks:hover {
-    text-shadow: 0 0 5px gray;
-    text-decoration: underline;
+    text-shadow: 0 0 10px #669900;
     font-weight: 600;
+
 }
 
 /* Footer */
