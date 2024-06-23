@@ -24,7 +24,7 @@
     padding: 2px;
 }
 .navLinks:hover {
-    text-shadow: 0 0 5px #669900;
+    text-shadow: 0 0 6px #669900;
     font-weight: 600;
     text-decoration: underline;
     text-decoration-color: #660000;
@@ -51,6 +51,17 @@
 /*Projects*/
 
 /*Resume*/
+
+.resume {
+    margin: 0 auto;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    border: 6px solid #660000;
+    outline: 3px solid black;
+    background-color: rgb(85, 85, 85);
+}
 
 /*Resume*/
 
