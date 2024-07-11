@@ -12,7 +12,7 @@ import Skills from './Skills'
 
 export default function Main() {
     return (
-        <div className='mx-auto bg-gray-100 p-2'>            
+        <div className='mainContainer mx-auto p-2'>            
                 <Routes>
                     <Route path="/" element={ <Home/> }/>
                     <Route path="/aboutMe" element={ <AboutMe/> }/>

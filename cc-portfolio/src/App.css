@@ -1,4 +1,11 @@
 /* HEADER HEADER HEADER */
+/*Header*/
+.headerContainer {
+    background-color: rgb(235, 240, 245);
+}
+
+/*Header*/
+
 /*Name*/
 .name {
     color: rgb(255, 255, 255);
@@ -34,12 +41,20 @@
 
 /* MAIN MAIN MAIN */
 
+/*Main*/
+    .mainContainer {
+        background-color: rgba(185, 195, 200, .8);
+    }
+/*Main*/
+
 /*AboutMe*/
 
 /*AboutMe*/
 
 /*ContactMe*/
-
+.contactMeForm {
+    background-color: #669966;
+}
 /*ContactMe*/
 
 /*Home*/
@@ -48,7 +63,7 @@
 
 /*Projects*/
 .projectsContainer {
-    background-color: rgba(51, 51, 0, .6);
+    background-color: rgb(235, 240, 245);
 }
 .projectCard {
     background-color: rgba(51, 51, 0, .6);
@@ -69,7 +84,6 @@
     text-shadow: 0 0 5px black;
 }
 .projectImage {
-    color: green;
     border: 2px solid black;
     border-radius: 8px;
     padding: 5px;
@@ -81,10 +95,15 @@
     border-radius: 8px;
     padding: 5px;
     margin: 3px;
-    background-color: whitesmoke;
+    background-color: rgb(215, 215, 215);
 }
 .projectSkills {
     color: darkblue;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 3px;
+    background-color: #993333;
 }
 
 /*Projects*/
@@ -111,6 +130,9 @@
 /* FOOTER FOOTER FOOTER */
 
 /* Footer */
+.footerContainer {
+    background-color: rgb(235, 240, 245);
+}
 .footerLinks {
     font-size: large;
     text-decoration: underline;
@@ -118,10 +140,25 @@
     padding: 2px;
 }
 .footerLinks:hover {
+    color: #161b22;
     text-shadow: 0 0 10px #669900;
     font-weight: 600;
 
 }
+.footerPortfolioGitHub {}
+.footerLinkedIn {
+    font-size: large;
+    text-decoration: underline;
+    text-decoration-color: #660000;
+    padding: 2px; 
+}
+.footerLinkedIn:hover {
+    color: #0A66C2;
+    text-shadow: 0 0 10px #378FE9;
+    font-weight: 600;
+    text-decoration-color: #161b22;
+}
+.footerProfileGitHub {}
 
 /* Footer */
 

@@ -29,7 +29,7 @@ export const ContactMeForm = () => {
     return (
         <form ref={form} onSubmit={sendEmail} className='border-4 border-black bg-gray-300 p-2'>
             <div className='text-2xl m-2'>Send me a message! <br/> It will be automatically delivered straight to my email.</div>
-            <div className='flex border-2 border-black p-2 font-semibold rounded-xl'>
+            <div className='contactMeForm flex border-2 border-black p-2 font-semibold rounded-xl'>
                 <label className='p-2'>Name:</label>
                 <input type='text' name='user_name' className='w-1/6 rounded-lg'/>
                 <label className='p-2'>Email:</label>
