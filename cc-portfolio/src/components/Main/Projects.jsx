@@ -4,9 +4,9 @@ import React from 'react'
 import AERDDietApp from './Projects/AERDDietApp'
 import BucketBattles from './Projects/BucketBattles'
 import CYCWorkouts from './Projects/CYCWorkouts'
+import ParkFinder from './Projects/ParkFinder'
 import FoodReactions from './Projects/FoodReactions'
 import FurnitureProDotCom from './Projects/FurnitureProDotCom'
-import ParkFinder from './Projects/ParkFinder'
 import TickIt from './Projects/TickIt'
 
 export default function Projects() {
@@ -16,10 +16,10 @@ export default function Projects() {
             <AERDDietApp/>
             <BucketBattles/>
             <CYCWorkouts/>
-            <FoodReactions/>
-            <FurnitureProDotCom/>
+            {/* <FoodReactions/> */}
+            {/* <FurnitureProDotCom/> */}
             <ParkFinder/>
-            <TickIt/>
+            {/* <TickIt/> */}
 
         </div>
     )
