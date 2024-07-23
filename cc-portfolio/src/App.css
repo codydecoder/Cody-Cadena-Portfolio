@@ -48,10 +48,24 @@
 /*Main*/
 
 /*AboutMe*/
+    .aboutMeContainer {
+        background-color: rgb(235, 240, 245);
+        border: 4px solid black;
+        border-radius: 8px;
+    }
+    .aboutMeP1 {}
+    .aboutMeP2 {}
+    .aboutMeP3 {}
+    .aboutMeP4 {}
 
 /*AboutMe*/
 
 /*ContactMe*/
+.contactMeFormContainer {
+    background-color: rgb(235, 240, 245);
+    border: 4px solid black;
+    border-radius: 8px;
+}
 .contactMeForm {
     background-color: #669966;
 }

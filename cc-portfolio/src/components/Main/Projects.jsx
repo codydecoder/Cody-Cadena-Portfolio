@@ -11,7 +11,7 @@ import TickIt from './Projects/TickIt'
 
 export default function Projects() {
     return (
-        <div className='border-4 border-black space-y-4 rounded-xl p-2 projectsContainer'>
+        <div className='border-4 border-black space-y-10 rounded-xl p-2 projectsContainer'>
             <div className='text-3xl font-bold'>Projects</div>
             <AERDDietApp/>
             <BucketBattles/>

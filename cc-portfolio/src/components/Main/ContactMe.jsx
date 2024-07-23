@@ -5,7 +5,7 @@ import { ContactMeForm } from './Form'
 
 export default function ContactMe() {
     return (
-        <div className='border-4 border-black p-4'>
+        <div className='p-4'>
             <div className='text-4xl font-bold'>Contact Me</div>
             <div className='text-xl'>Location: Dallas, TX</div>
             <div className='text-xl'>LinkedIn: <a href='https://www.linkedin.com/in/codycadena/'/><span className='text-blue-500 underline'>Cody Cadena</span></div>
