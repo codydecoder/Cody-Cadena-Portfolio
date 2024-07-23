@@ -7,6 +7,14 @@ import aerd1SS from './ProjectsScreenshots/AERD1SS.png'
 import aerd2SS from './ProjectsScreenshots/AERD2SS.png'
 import aerd3SS from './ProjectsScreenshots/AERD3SS.png'
 import aerd4SS from './ProjectsScreenshots/AERD4SS.png'
+//Skills
+import CSS from '../Skills/CSS'
+import ExpressJS from '../Skills/ExpressJS'
+import Git from '../Skills/Git'
+import HTML from '../Skills/HTML'
+import JavaScript from '../Skills/JavaScript'
+import MongoDB from '../Skills/MongoDB'
+import NodeJS from '../Skills/NodeJS'
 
 export default function AERDDietApp() {
     return (
@@ -19,8 +27,18 @@ export default function AERDDietApp() {
                 <img src={aerd3SS} alt="AERD Screenshot 3" className=''/>
                 <img src={aerd4SS} alt="AERD Screenshot 4" className=''/>
             </div>
-            <div className='projectGitHub text-gray-700 underline'><Link to='https://github.com/codydecoder/AERD-Diet-App'>GitHub Link</Link></div>
-            <div className='projectSkills'>Skills used</div>
+            <div className='projectGitHub'>
+                <Link className='text-gray-700 underline' to='https://github.com/codydecoder/AERD-Diet-App'>GitHub Link</Link>
+            </div>
+            <div className='projectSkills'>
+                <HTML/>
+                <CSS/>
+                <JavaScript/>
+                <MongoDB/>
+                <ExpressJS/>
+                <NodeJS/>
+                <Git/>
+            </div>
 
         </div>
 

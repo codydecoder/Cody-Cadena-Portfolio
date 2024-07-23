@@ -98,12 +98,16 @@
     background-color: rgb(215, 215, 215);
 }
 .projectSkills {
-    color: darkblue;
+    color: black;
     border: 2px solid black;
     border-radius: 8px;
     padding: 5px;
     margin: 3px;
     background-color: #993333;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 /*Projects*/
@@ -138,7 +142,7 @@
     background-color: rgb(235, 240, 245);
 }
 .skillCard:hover {
-    border: 3px solid #669966;
+    border: 3px solid black;
     outline: 2px solid black;
     box-shadow: 0 0 8px black;
 }
@@ -153,40 +157,40 @@
     padding-bottom: 2px;
 }
 #cppCard:hover {
-
+    border: 4px solid #659AD2;
 }
 #cssCard:hover {
-
+    border: 4px solid #264DE4;
 }
 #djangoCard:hover {
-
+    border: 4px solid rgba(0, 0, 0, .8);
 }
 #expressjsCard:hover {
-
+    border: 4px solid rgba(0, 0, 0, .4);
 }
 #gitCard:hover {
-
+    border: 4px solid #F05133;
 }
 #htmlCard:hover {
-
+    border: 4px solid #E44D26;
 }
 #javascriptCard:hover {
-
+    border: 4px solid #D6BA32;
 }
 #mongodbCard:hover {
-
+    border: 4px solid #12924F;
 }
 #nodejsCard:hover {
-
+    border: 4px solid #689F63;
 }
 #pythonCard:hover {
-
+    border: 4px solid #FFDC52;
 }
 #reactjsCard:hover {
-
+    border: 4px solid #61DAFB;
 }
 #tailwindcssCard:hover {
-
+    border: 4px solid #38BDF8;
 }
 
 

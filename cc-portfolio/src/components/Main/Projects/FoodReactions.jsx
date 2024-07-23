@@ -9,7 +9,9 @@ export default function FoodReactions() {
             <div className='projectTitle'>Food Reactions</div>
             <div className='projectDescription'>A food/recipe website using React.</div>
             <div className='projectImage'>Image</div>
-            <Link className='projectGitHub text-gray-700 underline' to='https://github.com/codydecoder/FoodReactions'>GitHub Link</Link>
+            <div className='projectGitHub'>
+                <Link className='text-gray-700 underline' to='https://github.com/codydecoder/FoodReactions'>GitHub Link</Link>
+            </div>
             <div className='projectSkills'>Skills used</div>
         </div>
 

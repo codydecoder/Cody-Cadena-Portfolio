@@ -5,6 +5,11 @@ import { Link } from 'react-router-dom'
 //Screenshots
 import pf1SS from './ProjectsScreenshots/PF1SS.png'
 import pf2SS from './ProjectsScreenshots/PF2SS.png'
+//Skills
+import CSS from '../Skills/CSS'
+import Git from '../Skills/Git'
+import HTML from '../Skills/HTML'
+import JavaScript from '../Skills/JavaScript'
 
 export default function ParkFinder() {
     return (
@@ -15,8 +20,15 @@ export default function ParkFinder() {
                 <img src={pf1SS} alt="ParkFinder Screenshot 1" className=''/>
                 <img src={pf2SS} alt="ParkFinder Screenshot 2" className=''/>
             </div>
-            <Link className='projectGitHub text-gray-700 underline' to='https://github.com/codydecoder/ParkFinder'>GitHub Link</Link>
-            <div className='projectSkills'>Skills used</div>
+            <div className='projectGitHub'>
+                <Link className='projectGitHub text-gray-700 underline' to='https://github.com/codydecoder/ParkFinder'>GitHub Link</Link>
+            </div>
+            <div className='projectSkills'>
+                <HTML/>
+                <CSS/>
+                <JavaScript/>
+                <Git/>
+            </div>
         </div>
 
     )

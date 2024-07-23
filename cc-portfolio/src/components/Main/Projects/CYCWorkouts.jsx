@@ -9,6 +9,15 @@ import cyc3SS from './ProjectsScreenshots/CYC3SS.png'
 import cyc4SS from './ProjectsScreenshots/CYC4SS.png'
 import cyc5SS from './ProjectsScreenshots/CYC5SS.png'
 import cyc6SS from './ProjectsScreenshots/CYC6SS.png'
+//Skills
+import CSS from '../Skills/CSS'
+import ExpressJS from '../Skills/ExpressJS'
+import Git from '../Skills/Git'
+import HTML from '../Skills/HTML'
+import JavaScript from '../Skills/JavaScript'
+import MongoDB from '../Skills/MongoDB'
+import NodeJS from '../Skills/NodeJS'
+import ReactJS from '../Skills/ReactJS'
 
 export default function CYCWorkouts() {
     return (
@@ -23,8 +32,19 @@ export default function CYCWorkouts() {
                 <img src={cyc5SS} alt="CYC Workouts Screenshot 5" className=''/>
                 <img src={cyc6SS} alt="CYC Workouts Screenshot 6" className=''/>
             </div>
-            <Link className='projectGitHub text-gray-700 underline' to='https://github.com/codydecoder/CYC-Workouts'>GitHub Link</Link>
-            <div className='projectSkills'>Skills used</div>
+            <div className='projectGitHub'>
+                <Link className='text-gray-700 underline' to='https://github.com/codydecoder/CYC-Workouts'>GitHub Link</Link>
+            </div>
+            <div className='projectSkills'>
+                <HTML/>
+                <CSS/>
+                <JavaScript/>
+                <MongoDB/>
+                <ExpressJS/>
+                <ReactJS/>
+                <NodeJS/>
+                <Git/>
+            </div>
         </div>
 
     )
