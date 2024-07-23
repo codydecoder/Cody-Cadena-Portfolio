@@ -124,6 +124,71 @@
 /*Resume*/
 
 /*Skills*/
+.skillCard {
+    border: 2px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 11rem;
+    height: 11rem;
+    padding: 12px;
+    margin: 5px;
+    background-color: rgb(235, 240, 245);
+}
+.skillCard:hover {
+    border: 3px solid #669966;
+    outline: 2px solid black;
+    box-shadow: 0 0 8px black;
+}
+.skillName {
+    font-size: x-large;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.skillLogo {
+    max-width: 10rem;
+    max-height: 6rem;
+    padding-bottom: 2px;
+}
+#cppCard:hover {
+
+}
+#cssCard:hover {
+
+}
+#djangoCard:hover {
+
+}
+#expressjsCard:hover {
+
+}
+#gitCard:hover {
+
+}
+#htmlCard:hover {
+
+}
+#javascriptCard:hover {
+
+}
+#mongodbCard:hover {
+
+}
+#nodejsCard:hover {
+
+}
+#pythonCard:hover {
+
+}
+#reactjsCard:hover {
+
+}
+#tailwindcssCard:hover {
+
+}
+
 
 /*Skills*/
 
