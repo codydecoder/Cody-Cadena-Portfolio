@@ -12,7 +12,7 @@ import TickIt from './Projects/TickIt'
 export default function Projects() {
     return (
         <div className='border-4 border-black space-y-10 rounded-xl p-2 projectsContainer'>
-            <div className='text-3xl font-bold'>Projects</div>
+            <div className='text-3xl font-bold'>Cody's Projects</div>
             <AERDDietApp/>
             <BucketBattles/>
             <CYCWorkouts/>

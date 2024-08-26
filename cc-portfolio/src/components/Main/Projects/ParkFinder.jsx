@@ -16,9 +16,9 @@ export default function ParkFinder() {
         <div className='border-black border-2 projectCard'>
             <div className='projectTitle'>ParkFinder</div>
             <div className='projectDescription'>This program will help you plan out your trips to national parks by finding all the parks near you. This program will search for parks near a location that you enter.</div>
-            <div className='projectImage'>
-                <img src={pf1SS} alt="ParkFinder Screenshot 1" className=''/>
-                <img src={pf2SS} alt="ParkFinder Screenshot 2" className=''/>
+            <div className='projectImageContainer'>
+                <img src={pf1SS} alt="ParkFinder Screenshot 1" className='projectImage'/>
+                <img src={pf2SS} alt="ParkFinder Screenshot 2" className='projectImage'/>
             </div>
             <div className='projectGitHub'>
                 <Link className='projectGitHub text-gray-700 underline' to='https://github.com/codydecoder/ParkFinder'>GitHub Link</Link>

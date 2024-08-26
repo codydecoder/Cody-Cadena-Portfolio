@@ -21,11 +21,11 @@ export default function AERDDietApp() {
         <div className='border-black border-2 projectCard'>
             <div className='projectTitle'>AERD Diet App</div>
             <div className='projectDescription'>AERD, or Aspirin Exacerbated Respiratory Disease, is a chronic inflammatory disease that affects around 1.5 million Americans and about 30% of all asthmatics. In recent years(2018) AERD has been found to have it's symptoms relieved by 97% in two weeks if patients follow the Low Omega-6 Diet. This app seeks to compile food and recipe information from numerous scattered sources into one centralized database that stores omega-6 and omega-3 information for each and every food & recipe.</div>
-            <div className='projectImage'>
-                <img src={aerd1SS} alt="AERD Screenshot 1" className=''/>
-                <img src={aerd2SS} alt="AERD Screenshot 2" className=''/>
-                <img src={aerd3SS} alt="AERD Screenshot 3" className=''/>
-                <img src={aerd4SS} alt="AERD Screenshot 4" className=''/>
+            <div className='projectImageContainer'>
+                <img src={aerd1SS} alt="AERD Screenshot 1" className='projectImage'/>
+                <img src={aerd2SS} alt="AERD Screenshot 2" className='projectImage'/>
+                <img src={aerd3SS} alt="AERD Screenshot 3" className='projectImage'/>
+                <img src={aerd4SS} alt="AERD Screenshot 4" className='projectImage'/>
             </div>
             <div className='projectGitHub'>
                 <Link className='text-gray-700 underline' to='https://github.com/codydecoder/AERD-Diet-App'>GitHub Link</Link>
