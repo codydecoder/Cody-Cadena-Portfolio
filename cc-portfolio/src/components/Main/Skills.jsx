@@ -16,21 +16,21 @@ import TailwindCSS from './Skills/TailwindCSS'
 
 export default function Skills() {
     return (
-        <div className='border-4 border-black'>
-            <h2 className='text-3xl font-bold'>Cody's Skills</h2>
-            <div className='flex flex-wrap justify-center'>
-                <CPP/>
-                <CSS/>
-                <Django/>
-                <ExpressJS/>
-                <Git/>
+        <div className=''>
+            <h2 className='underline text-3xl font-bold p-2'>Cody's Skills</h2>
+            <div className='allSkillsContainer'>
                 <HTML/>
+                <CSS/>
                 <JavaScript/>
                 <MongoDB/>
-                <NodeJS/>
-                <Python/>
+                <ExpressJS/>
                 <ReactJS/>
+                <NodeJS/>
                 <TailwindCSS/>
+                <Python/>
+                <Django/>
+                <Git/>               
+                <CPP/>
             </div>
         </div>
     )

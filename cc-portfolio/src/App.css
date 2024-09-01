@@ -75,6 +75,12 @@
 
 /*Home*/
 
+/*LookingFor*/
+.lookingForParagraph {
+    background-color: rgb(235, 240, 245);
+}
+/*LookingFor*/
+
 /*Projects*/
 .projectsContainer {
     background-color: rgb(235, 240, 245);
@@ -149,6 +155,19 @@
 /*Resume*/
 
 /*Skills*/
+.allSkillsContainer {
+    color: black;
+    padding: 10px;
+    margin: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, .45);
+
+}
 .skillCard {
     border: 2px solid black;
     border-radius: 8px;

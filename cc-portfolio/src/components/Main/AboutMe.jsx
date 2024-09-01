@@ -17,7 +17,7 @@ export default function AboutMe() {
             </div>
             <div className='aboutMeP4 flex flex-wrap border-2 border-black p-2'>
                 
-                <div className='text-center'>With a keen eye for detail and a thirst for innovation, I approach each project with dedication and artistry. Let's connect and collaborate to push the boundaries of what's possible in the digital landscape.</div>
+                <div className='text-center'>With a keen eye for detail and a hunger for innovation, I approach each project with dedication and artistry. Let's connect and collaborate to push the boundaries of what's possible in the digital landscape.</div>
             </div>
         </div>
     )
