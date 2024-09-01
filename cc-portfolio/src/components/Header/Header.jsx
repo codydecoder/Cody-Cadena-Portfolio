@@ -8,7 +8,7 @@ import Nav from './Nav'
 export default function Header() {
     return (
         <div className="headerContainer mx-auto p-2">
-            <div className='flex flex-nowrap'>
+            <div className='headerTop'>
                 <Headshot/>
                 <Name/>
             </div>
